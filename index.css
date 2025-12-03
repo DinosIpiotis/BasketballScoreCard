@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: darkblue;
+    padding: 0 1rem;         /* space at left/right */
+    box-sizing: border-box;
+}
+
+h2 {
+  color: white;          /* text color */
+  font-family: Arial, serif;  /* font stack */
+  font-size: 28px;         /* optional */
+  font-weight: 700;        /* boldness */
+  line-height: 1.2;        /* spacing */
+}
+
+h3 {
+  color: white;          /* text color */
+  background-color: black;
+  padding: 15px;
+  font-family: Arial, serif;  /* font stack */
+  font-size: 48px;         /* optional */
+  font-weight: 700;        /* boldness */
+  line-height: 1.2;        /* spacing */
+}
+
+h2, h3 {
+  text-align: center;
+  margin: 0 0 0.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;  /* not space-around */
+  gap: 0.5rem;                  /* use gap for consistent spacing */
+}
+button {
+  background-color: grey;
+  color: white;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 15px;
+}
+
+button.btn--reset {
+  background-color: red;
+  font-size: 16px;
+}
+
